@@ -11,7 +11,7 @@
 
 namespace Benlumia007\Backdrop\PostTypes\Portfolio;
 
-use Hybrid\Core\ServiceProvider;
+use Backdrop\Tools\ServiceProvider;
 
 /**
  * Sidebar Provider.
@@ -28,7 +28,7 @@ class Provider extends ServiceProvider {
 	 * @access public
 	 * @return void
 	 */
-	public function register() {
+	public function register(): void {
 		$this->app->singleton( 'backdrop/post/type/portfolio', Component::class );
 
     }
@@ -40,7 +40,7 @@ class Provider extends ServiceProvider {
 	 * @access public
 	 * @return void
 	 */
-    public function boot() {
+    public function boot(): void {
         $this->app->resolve( 'backdrop/post/type/portfolio' )->boot();
     }
 }

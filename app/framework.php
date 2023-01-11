@@ -16,7 +16,7 @@
  *
  * This will create an instance of the framework allowing you to initialize the theme.
  */
-$portfolios = Hybrid\booted() ? Hybrid\app() : new Hybrid\Core\Application();
+$portfolios = Backdrop\booted() ? Backdrop\app() : new Backdrop\Core\Application();
 
 /**
  * Register default providers

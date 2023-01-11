@@ -4,7 +4,7 @@
  */
 namespace Benlumia007\Backdrop\PostTypes\Portfolio;
 
-use Hybrid\Contracts\Bootable;
+use Backdrop\Contracts\Bootable;
 
 class Component implements Bootable {
 
