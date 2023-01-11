@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/benlumia007/backdrop.git",
-                "reference": "c898a931ce315eb741df79dd4670a67ce7357021"
+                "reference": "44a12610da96f2e05236526b88c16c711c708d6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/benlumia007/backdrop/zipball/c898a931ce315eb741df79dd4670a67ce7357021",
-                "reference": "c898a931ce315eb741df79dd4670a67ce7357021",
+                "url": "https://api.github.com/repos/benlumia007/backdrop/zipball/44a12610da96f2e05236526b88c16c711c708d6d",
+                "reference": "44a12610da96f2e05236526b88c16c711c708d6d",
                 "shasum": ""
             },
             "require": {
@@ -27,9 +27,7 @@
             "type": "library",
             "autoload": {
                 "files": [
-                    "src/Helpers/functions-helpers.php",
-                    "src/Theme/Menu/functions-menu.php",
-                    "src/Theme/Sidebar/functions-sidebar.php"
+                    "src/functions-helpers.php"
                 ],
                 "psr-4": {
                     "Backdrop\\": "src/"
@@ -56,7 +54,7 @@
                 "issues": "https://github.com/benlumia007/backdrop/issues",
                 "source": "https://github.com/benlumia007/backdrop/tree/v2.0.0"
             },
-            "time": "2023-01-11T17:58:11+00:00"
+            "time": "2023-01-11T22:11:28+00:00"
         }
     ],
     "packages-dev": [],

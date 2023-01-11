@@ -11,7 +11,7 @@
 
 namespace Benlumia007\Backdrop\PostTypes\Portfolio;
 
-use Backdrop\Tools\ServiceProvider;
+use Backdrop\Core\ServiceProvider;
 
 /**
  * Sidebar Provider.
